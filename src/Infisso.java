@@ -25,4 +25,9 @@ public class Infisso {
     public double getLarghezza(){
         return larghezza;
     }
+    public String toString(){
+        return "Materiale: "+materiale+"\n"+
+                "Altezza: "+altezza+"\n"+
+                "Larghezza: "+larghezza;
+    }
 }
