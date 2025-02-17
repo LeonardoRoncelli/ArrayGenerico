@@ -17,4 +17,8 @@ public class Mobile {
     public double getPrezzo(){
         return prezzo;
     }
+    public String toString(){
+        return "Peso: "+peso+"\n"+
+                "Prezzo: "+prezzo;
+    }
 }
